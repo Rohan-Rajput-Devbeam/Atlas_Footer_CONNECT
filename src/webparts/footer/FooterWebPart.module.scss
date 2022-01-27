@@ -1,0 +1,152 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.footer {
+  font-family: 'Oswald' !important;
+ // font-family: 'Oswald' !important;
+  float: left;
+  width: 105%;
+  color: #fff;
+  background-color: #323130;
+  padding: 2em 0;
+  border-top: 1px solid 323130;
+  text-align: center;
+ // font-family: "Oswald" !important;
+  font-weight: 400;
+  
+  .footerContent{
+    //font-family: 'Oswald' !important;
+    vertical-align: top;
+    
+
+  }
+  
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+  }
+  
+  .needhelp{
+    font-size: 3.5em;
+    display: block;
+    font-weight: 700;
+  
+  }
+
+  .spanhelp{
+   // font-family: "Oswald" !important;
+    position: relative;
+    font-size: 0.9em;
+    top: -0.3em;
+  }
+
+  .footerVerbiage{
+    padding-bottom: 0.75em;
+    display: inline-block;
+    margin-left: 0.75em;
+    line-height: 1.5em;
+    font-size: 1.25em;
+    letter-spacing: 0.25px;
+    margin-top: 0.5em;
+  }
+
+  .averbiage{
+    color: #cc0a0a;
+    font-weight: 700;
+  }
+
+  .footerlinks{
+   color: #fff !important;
+    font-size: 0.95em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .copyrightRow{
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+  
+  .div{
+    display: block;
+    //font-family: 'Oswald' !important;
+  //  font-family: 'Oswald' !important;
+    //vertical-align: top;
+  }
+
+  .a1{
+    color: #fff ;
+    
+  }
+  .a1:hover {
+    color: #cc0a0a !important;
+  }
+
+  // .container {
+  //   font-family: 'Oswald' !important;
+  //   max-width: 700px;
+  //   margin: 0px auto;
+  //   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  // }
+
+
+  // .column {
+  //   @include ms-Grid-col;
+  //   @include ms-lg10;
+  //   @include ms-xl8;
+  //   @include ms-xlPush2;
+  //   @include ms-lgPush1;
+  // }
+
+  // .title {
+  //   @include ms-font-xl;
+  //   @include ms-fontColor-white;
+  // }
+
+  // .subTitle {
+  //   @include ms-font-l;
+  //   @include ms-fontColor-white;
+  // }
+
+  // .description {
+  //   @include ms-font-l;
+  //   @include ms-fontColor-white;
+  // }
+
+  // .button {
+  //   // Our button
+  //   text-decoration: none;
+  //   height: 32px;
+
+  //   // Primary Button
+  //   min-width: 80px;
+  //   background-color: $ms-color-themePrimary;
+  //   border-color: $ms-color-themePrimary;
+  //   color: $ms-color-white;
+
+  //   // Basic Button
+  //   outline: transparent;
+  //   position: relative;
+  //   font-family: 'Oswald' !important;
+  //  // font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  //   -webkit-font-smoothing: antialiased;
+  //   font-size: $ms-font-size-m;
+  //   font-weight: $ms-font-weight-regular;
+  //   border-width: 0;
+  //   text-align: center;
+  //   cursor: pointer;
+  //   display: inline-block;
+  //   padding: 0 16px;
+
+  //   .label {
+  //     font-weight: $ms-font-weight-semibold;
+  //     font-size: $ms-font-size-m;
+  //     height: 32px;
+  //     line-height: 32px;
+  //     margin: 0 4px;
+  //     vertical-align: top;
+  //     display: inline-block;
+  //   }
+  // }
+}
